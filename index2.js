@@ -12,4 +12,4 @@ const printPassTimes = function(passTimes) {
 nextISSTimesForMyLocation()
   .then((passTimes) => {
     printPassTimes(passTimes);
-  })
+  });

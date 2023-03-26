@@ -22,7 +22,7 @@ const nextISSTimesForMyLocation = function() {
     .then((data) => {
       const { response } = JSON.parse(data);
       return response;
-    })
+    });
 };
 
 module.exports = { nextISSTimesForMyLocation };
